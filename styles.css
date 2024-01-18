@@ -1,0 +1,24 @@
+body {
+    /* fondo*/
+    /*background: linear-gradient(to right, #93A8AC, #B5BBAF);*/
+    background-color: #D7CEB2;
+    /* Color del texto */
+    color: #000000;
+    /* espaciado en el contenido */
+    padding: 20px;
+    /* Fuente de letra */
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    /* titulo */
+    text-align: center;
+}
+
+p {
+    /* párrafo */
+    text-align: justify;
+}
+.lista{
+    font-weight: bold;
+}
