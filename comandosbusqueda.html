@@ -22,6 +22,22 @@
                 <br>
                 find ./ -size 20M= busca en el directorio que se ubique, todos los archivos con peso mayor a 20MB
             </p>
+            <li class="lista">grep</li>
+            <p>grep Towers movies.csv= Busca dentro del archivo movies, la palabra Towers y muestra las coincidencias
+                <br>
+                grep the movies.csv= busca en el archivo movies las coincidencias con la palabra "the"
+                <br>
+                grep the -i movies.csv= busqueda similar al anterior pero que incluya la mayúscula inicial
+                <br>
+                grep -c the  movies.csv= cuenta las coincidencias encontradas
+                <br>
+                grep -vi towers  movies.csv= ignora las coincidencias de la palabra towers tanto en mayúsculas como 
+                en minúsculas
+                <br>
+                wc movies.csv= cuenta las palabras, letras y peso en bits del archivo
+                <br>
+                wc -c movies.csv= si necesito solo el tamaño en bits, este comando lo genera
+            </p>
         </ol>
     </li>
 </body>
