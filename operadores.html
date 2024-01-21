@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="LaTerminal.html">Menú</a></li>
+            <li><a href="introduccion.html">Introducción</a></li>
+            <li><a href="comandosTerminal.html">Comandos de la Terminal</a></li>
+            <li><a href="operadores.html">Operadores</a></li>
+            <li><a href="permisos.html">Permisos</a></li>
+        </ul>
+    </nav>
+    <li class="lista">Operadores</li>
+        <ol>
+            <li class="lista">xdg-open nombreArchivo.exptension</li>
+            <p>Permite por ejemplo buscar una plabra de la siguiente manera: /inteligencia y el resultado
+                son todas las palbras inteligencia relsaltadas en la linea de comando
+            </p>
+            <li class="lista">type</li>
+            <p>Este comando muestra la información acerca de los comandos valga la redundancia, es decir que 
+                permite ampliar la información acerca de los comandos y sus opciones
+            </p>
+            <li class="lista">alias nombreComando="comando a crear"</li>
+            <p>Este comando permite crear comandos personalizados para usarlos en la terminal, los alias son temporales
+                a menos que se guarden
+            </p>
+            <li class="lista">man, help y whatis +  comando</li>
+            <p>Permiten acceder al manual o ayuda del comando, es decir saber su función ejemplos, etc, acerca de este 
+                comando, en caso de que lo requiramos, para aprender a usarlo
+            </p>
+            <li class="lista">wilcards: ls *.txt</li>
+            <p>Lo que permite una wilcard es que facilita la búsqueda, permitiendo filtrar por extensión de archivos,
+                por nombres, por carpetas, por mayúsculas o minúsculas, etc.
+            </p>
+            <li class="lista">carpeta > nombreArchivo.txt</li>
+            <p>Permite redireccionar los nombres de los archivos a un solo archivo.txt, es decir copiar los nombres de
+                todos los archivos en uno solo. Con un solo > sobre escribe el archivo, pero si quiero concatenar coloco
+                >> y de esta manera concatena los anteriores con los nuevos.<br>
+                Este redireccionamiento genera un archivo error, en caso de que no se pueda ejecutar el comando agregando un 2
+            </p>
+            <li class="lista">cat nombreArchivo1 nombreArchivo2</li>
+            <p>Permite concatenar dos archivos en uno solo
+            </p>
+            <li class="lista">Pipe operator | </li>
+            <p>Permite convertir el output de un comando en un input, ejemplo ls -lh | less, de esta manera puedo
+                listar los archivos y a la vez buscarun archivo dentro de ese resultado de la lista <br>
+                Se puede usar las veces que sea necesesario como por ejemplo listar, buscar y guardar en un 
+                nuevo archivo.
+            </p>
+            <li class="lista">Encadenar comandos ; asíncronos</li>
+            <p>Se coloca un comando luego ; el siguiente comando; siguiente comando, de esta manera se ejecutan de forma
+                asíncrona uno a uno
+            </p>
+            <li class="lista">Encadenar comandos & síncronos</li>
+            <p>Se coloca un comando luego & el siguiente comando & siguiente comando, de esta manera se ejecutan de forma
+                síncrona.
+            </p>
+            <li class="lista">condicionales && ||</li>
+            <p>El condional && se ejecuta si y solo si se pueden ejcutar todas las condiciones <br>
+                En el condicional || se ejcuta uno de los dos comandos
+            </p>
+            <li class="lista">condicionales && ||</li>
+            <p>El condional && se ejecuta si y solo si se pueden ejcutar todas las condiciones <br>
+                En el condicional || se ejcuta uno de los dos comandos
+            </p>
+        </ol>
+    </li>
+</body>
+</html>
